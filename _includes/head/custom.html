@@ -2,7 +2,7 @@
 <meta name="theme-color" content="#fafbf9">
 <script>
   try {
-    var savedTheme = localStorage.getItem('academic-theme');
-    if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) document.documentElement.setAttribute('data-theme', 'dark');
+    var savedTheme = localStorage.getItem('academic-theme-preference');
+    document.documentElement.setAttribute('data-theme', savedTheme === 'dark' ? 'dark' : 'light');
   } catch (e) {}
 </script>

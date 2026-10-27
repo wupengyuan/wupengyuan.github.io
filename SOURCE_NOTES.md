@@ -4,6 +4,8 @@ The biography and selected education, research experience, and honors come from 
 
 The portrait in `images/profile.jpg` was downloaded unchanged from the owner's Google Scholar profile at their request.
 
+The owner clarified their participation in Shanghai Artificial Intelligence Laboratory's joint Ph.D. training program and supplied [Prof. Xuelong Li's Google Scholar link](https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=zh-CN). The biography and background page use that program description.
+
 Only publicly accessible research is listed. Submission destinations and unpublished manuscripts are omitted. No citation counts or h-index were copied from third-party author aggregators, which can merge people with the same name.
 
 - [Google Scholar profile](https://scholar.google.com/citations?user=nVktZsYAAAAJ&hl=en) — successfully retrieved on 2026-10-27 after an initial rate limit; all five listed public papers are included. Conference labels were cross-checked against this profile.

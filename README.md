@@ -4,7 +4,7 @@ English academic website built from [Academic Pages](https://github.com/academic
 
 **Website:** https://wupengyuan.github.io/
 
-The site contains a short introduction, publications, and selected background information. Only publicly released papers are included.
+The homepage contains a short introduction, all public publications, and selected honors. Background details are on a separate page. The site opens in light mode; visitors can switch themes manually.
 
 ## Update content
 

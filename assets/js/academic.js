@@ -12,7 +12,7 @@
   toggle.addEventListener('click', () => {
     const theme = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
     root.setAttribute('data-theme', theme);
-    try { localStorage.setItem('academic-theme', theme); } catch (e) {}
+    try { localStorage.setItem('academic-theme-preference', theme); } catch (e) {}
     updateLabel();
   });
 })();
