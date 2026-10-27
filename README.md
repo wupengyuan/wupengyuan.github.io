@@ -18,7 +18,7 @@ The homepage contains a short introduction, all public publications, and selecte
 | `images/research/` | Attributed figures from the papers |
 | `_sass/_academic.scss` | Personal styles and responsive layouts |
 
-The portrait in `images/profile.jpg` is the owner's Google Scholar profile photo. To replace it, update `avatar:` under `author:` in `_config.yml`.
+The portrait in `images/profile-photo.jpg` was supplied by the owner. To replace it, update `avatar:` under `author:` in `_config.yml`.
 
 ## Run locally
 
