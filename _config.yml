@@ -10,6 +10,7 @@ repository: wupengyuan/wupengyuan.github.io
 timezone: Asia/Shanghai
 author:
   avatar: /images/profile-photo-1024.jpg
+  avatar_credit: "Photo by ZZY"
   name: Pengyuan Wu
   bio: "Ph.D. student in Computer Science and Technology at Zhejiang University."
   location: Hangzhou / Shanghai, China

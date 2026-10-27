@@ -1,7 +1,10 @@
 <aside class="profile-sidebar" aria-label="Profile and contact">
   <div class="profile-identity">
     {% if site.author.avatar %}
-      <img class="profile-photo" src="{{ site.author.avatar | relative_url }}" alt="Pengyuan Wu" width="132" height="132">
+      <figure class="profile-portrait">
+        <img class="profile-photo" src="{{ site.author.avatar | relative_url }}" alt="Pengyuan Wu" width="132" height="132">
+        {% if site.author.avatar_credit %}<figcaption class="profile-credit">{{ site.author.avatar_credit | escape }}</figcaption>{% endif %}
+      </figure>
     {% else %}
       <div class="profile-monogram" aria-hidden="true"><span>PW</span></div>
     {% endif %}
