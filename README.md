@@ -4,7 +4,7 @@ English academic website built from [Academic Pages](https://github.com/academic
 
 **Website:** https://wupengyuan.github.io/
 
-The site contains About, Publications, and CV pages, a responsive layout, light and dark themes, and downloadable BibTeX citations. Only publicly released papers are included.
+The site contains a short introduction, publications, and selected background information. Only publicly released papers are included.
 
 ## Update content
 
@@ -12,13 +12,13 @@ The site contains About, Publications, and CV pages, a responsive layout, light 
 | --- | --- |
 | `_config.yml` | Site address, email, GitHub, and Google Scholar links |
 | `_pages/about.md` | English introduction and homepage structure |
-| `_data/profile.yml` | Education, experience, awards, and research interests |
+| `_data/profile.yml` | Selected education, experience, and honors |
 | `_data/papers.yml` | Publication metadata, author lists, and resource links |
 | `files/*.bib` | BibTeX citations for the linked public versions |
 | `images/research/` | Attributed figures from the papers |
 | `_sass/_academic.scss` | Personal styles and responsive layouts |
 
-To add a portrait, put the image in `images/` and add `avatar: /images/your-photo.jpg` under `author:` in `_config.yml`. Until then, the site uses an initials monogram.
+The portrait in `images/profile.jpg` is the owner's Google Scholar profile photo. To replace it, update `avatar:` under `author:` in `_config.yml`.
 
 ## Run locally
 

@@ -6,7 +6,7 @@ layout: default
   <main id="content" class="academic-content">
     {% unless page.home %}
       <header class="section-page-header">
-        <p class="eyebrow">{{ page.kicker | default: "Pengyuan Wu" }}</p>
+        {% if page.kicker %}<p class="eyebrow">{{ page.kicker }}</p>{% endif %}
         <h1>{{ page.title }}</h1>
         {% if page.intro %}<p class="page-intro">{{ page.intro }}</p>{% endif %}
       </header>

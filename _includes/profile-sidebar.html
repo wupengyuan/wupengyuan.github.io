@@ -3,7 +3,7 @@
     {% if site.author.avatar %}
       <img class="profile-photo" src="{{ site.author.avatar | relative_url }}" alt="Pengyuan Wu" width="132" height="132">
     {% else %}
-      <div class="profile-monogram" aria-hidden="true"><span>PW</span><svg viewBox="0 0 140 140"><path d="M12 97L52 70L94 92L130 44M52 70L72 20M94 92L107 130"/><circle cx="12" cy="97" r="4"/><circle cx="52" cy="70" r="4"/><circle cx="94" cy="92" r="4"/><circle cx="130" cy="44" r="4"/></svg></div>
+      <div class="profile-monogram" aria-hidden="true"><span>PW</span></div>
     {% endif %}
     <div>
       <a class="profile-name" href="{{ '/' | relative_url }}">Pengyuan Wu</a>
@@ -13,12 +13,10 @@
   <div class="profile-affiliations">
     <a href="{{ site.data.profile.institution_url }}">{{ site.data.profile.institution }}</a>
     <a href="{{ site.data.profile.lab_url }}">Shanghai AI Laboratory</a>
-    <p class="profile-location">Hangzhou / Shanghai, China</p>
   </div>
   <div class="profile-links">
     <a href="mailto:{{ site.author.email }}"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>Email <span aria-hidden="true">↗</span></a>
     <a href="{{ site.author.googlescholar }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m2 9 10-6 10 6-10 6-10-6Z"/><path d="M6 12v6c4 3 8 3 12 0v-6M22 9v8"/></svg>Google Scholar <span aria-hidden="true">↗</span></a>
     <a href="https://github.com/{{ site.author.github }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 16"/></svg>GitHub <span aria-hidden="true">↗</span></a>
   </div>
-  <p class="profile-note">Robot learning.<br>Embodied intelligence.<br>Generalization in the real world.</p>
 </aside>

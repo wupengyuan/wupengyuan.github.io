@@ -4,49 +4,19 @@ institution: Zhejiang University
 institution_url: https://www.zju.edu.cn/english/
 lab: Shanghai Artificial Intelligence Laboratory
 lab_url: https://www.shlab.org.cn/
-research:
-  - title: Robot learning
-    label: Adapt
-    description: "Robust robot policies that respond to changing environments and generalize beyond their training data."
-  - title: Navigation & world models
-    label: Imagine
-    description: "Semantic imagination and predictive models for embodied agents navigating unfamiliar spaces."
-  - title: 3D scenes & data
-    label: Build
-    description: "Editable 3D environments and scalable data generation for robot learning and simulation."
 education:
-  - institution: Zhejiang University
-    degree: Ph.D. in Computer Science and Technology
-    dates: "Sep. 2025 – Present"
-    detail: "Advisor: Prof. Xuelong Li."
-  - institution: Wuhan University
-    degree: B.Eng. in Automation
-    dates: "Sep. 2021 – Jun. 2025"
-    detail: "GPA: 3.81/4.00; top 2.5%. Advisor: Prof. Xiangtao Zhuan."
+- institution: Zhejiang University
+  degree: Ph.D. in Computer Science and Technology
+  dates: Sep. 2025 – Present
+- institution: Wuhan University
+  degree: B.Eng. in Automation
+  dates: Sep. 2021 – Jun. 2025
 experience:
-  - institution: Shanghai Artificial Intelligence Laboratory
-    role: Research Intern / Joint Ph.D. Researcher
-    dates: "Feb. 2025 – Present"
-    description: "Research on robust manipulation policies, vision-and-language navigation, world models, and simulation-ready 3D scene generation. Experience deploying policies on xArm and Flexiv robots."
-  - institution: Wuhan University Intelligent Vehicle Team
-    role: Team Lead
-    dates: "Nov. 2022 – Sep. 2024"
-    description: "Led the development of an autonomous vehicle platform, from PCB design and sensor integration to onboard perception, planning, and control with ROS. The team won a national first prize in the 2024 National University Students Intelligent Car Race."
+- institution: Shanghai Artificial Intelligence Laboratory
+  role: Research Intern / Joint Ph.D. Researcher
+  dates: Feb. 2025 – Present
 awards:
-  - year: "2025"
-    title: "First Prize, Student Innovation Achievement Award (Yingnuo), Wuhan University"
-    detail: "One of five teams university-wide."
-  - year: "2024"
-    title: "National First Prize, National University Students Intelligent Car Race"
-    detail: "Ranked 2nd among 222 teams."
-  - year: "2024"
-    title: "National Second Prize, China Robot and Artificial Intelligence Competition"
-  - year: "2024"
-    title: "Meritorious Winner, Mathematical Contest in Modeling (MCM)"
-  - year: "2023"
-    title: "National Third Prize, National University Students Intelligent Car Race"
-  - year: "2022–2024"
-    title: "First-Class Scholarship, Wuhan University"
-    detail: "Awarded to the top 5% of students."
-  - year: "2024"
-    title: "Outstanding Student Model, Wuhan University"
+- year: '2025'
+  title: Yingnuo Student Innovation Award, First Prize, Wuhan University
+- year: '2024'
+  title: National First Prize, National University Students Intelligent Car Race

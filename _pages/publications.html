@@ -1,10 +1,8 @@
 ---
 permalink: /publications/
 title: Publications
-kicker: Research
-intro: "Robot learning, embodied navigation, and predictive world models."
 ---
-<p class="publication-intro">For the latest citation information, see my <a href="{{ site.author.googlescholar }}">Google Scholar profile <span aria-hidden="true">↗</span></a>. Author lists below follow the linked public preprints. * Equal contribution.</p>
+<p class="publication-intro"><a href="{{ site.author.googlescholar }}">Google Scholar</a> · * Equal contribution.</p>
 <section aria-labelledby="conference-heading">
   <div class="section-heading"><h2 id="conference-heading">Conference papers</h2><span class="section-index">2026</span></div>
   {% for paper in site.data.papers %}{% if paper.type == 'conference' %}{% include paper-card.html %}{% endif %}{% endfor %}

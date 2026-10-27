@@ -1,6 +1,8 @@
 # Content sources
 
-The personal biography, education, experience, honors, and technical skills were translated from the owner's supplied CV, `MY_academic_CV (3).pdf`, on 2026-10-27. The original CV is not included in this public repository because it contains unpublished work and a phone number.
+The biography and selected education, research experience, and honors come from the owner's supplied CV. The original CV is not published. The owner requested concise copy and a selective background page; detailed skills, GPA, rankings, project descriptions, and the longer awards list are omitted.
+
+The portrait in `images/profile.jpg` was downloaded unchanged from the owner's Google Scholar profile at their request.
 
 Only publicly accessible research is listed. Submission destinations and unpublished manuscripts are omitted. No citation counts or h-index were copied from third-party author aggregators, which can merge people with the same name.
 
@@ -9,7 +11,7 @@ Only publicly accessible research is listed. Submission destinations and unpubli
 - [Adaptive Text Dreamer](https://arxiv.org/abs/2505.20897) — title, public preprint author list, abstract, and lead figure. CVPR 2026 status is also confirmed by the [authors' repository](https://github.com/zhangpingrui/Adaptive-Text-Dreamer).
 - [MixVLA](https://arxiv.org/abs/2610.02898) — public preprint metadata and lead figure. The public author list supersedes the older list in the supplied CV. No conference acceptance is claimed.
 - [WOLF](https://arxiv.org/abs/2609.23656) — public preprint metadata and lead figure. No conference acceptance is claimed.
-- [Physical AI](https://arxiv.org/abs/2610.27045) — public monograph metadata. The page abbreviates the long author list; the BibTeX download preserves all authors. Its typographic cover is original website artwork, not a reproduced paper figure.
+- [Physical AI](https://arxiv.org/abs/2610.27045) — public monograph metadata. The page abbreviates the long author list; the BibTeX download preserves all authors.
 
 Paper figures remain attributed to their authors through the adjoining author lists and links to the original papers. The BibTeX downloads cite the public arXiv versions; Adaptive Text Dreamer's preprint year is 2025, while its conference year is 2026.
 
