@@ -2,7 +2,7 @@
 
 The biography and selected education, research experience, and honors come from the owner's supplied CV. The original CV is not published. The owner requested concise copy and a selective background page; detailed skills, GPA, rankings, project descriptions, and the longer awards list are omitted.
 
-The portrait in `images/profile-photo.jpg` was supplied by the owner and replaces the earlier Google Scholar thumbnail. The image file is published unchanged.
+The portrait in `images/profile-photo-1024.jpg` was supplied by the owner and replaces the earlier Google Scholar thumbnail. At the owner's request, it was resized to 1024 × 1024 and saved as an optimized progressive JPEG. The original composition is retained, and the full-resolution source is kept in the local workspace outside the published site.
 
 The owner clarified their participation in Shanghai Artificial Intelligence Laboratory's joint Ph.D. training program and supplied [Prof. Xuelong Li's Google Scholar link](https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=zh-CN). The biography and background page use that program description.
 

@@ -18,7 +18,7 @@ The homepage contains a short introduction, all public publications, and selecte
 | `images/research/` | Attributed figures from the papers |
 | `_sass/_academic.scss` | Personal styles and responsive layouts |
 
-The portrait in `images/profile-photo.jpg` was supplied by the owner. To replace it, update `avatar:` under `author:` in `_config.yml`.
+The portrait in `images/profile-photo-1024.jpg` was supplied by the owner and compressed to 1024 × 1024 for the website. To replace it, update `avatar:` under `author:` in `_config.yml`.
 
 ## Run locally
 
