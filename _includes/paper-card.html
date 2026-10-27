@@ -1,0 +1,18 @@
+<article class="paper" id="{{ paper.id }}">
+  <a class="paper-image" href="{{ paper.paper }}" aria-label="Read {{ paper.title | escape }}">
+    {% if paper.image %}<img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | escape }}" width="440" height="300" loading="lazy">{% else %}<div class="paper-cover" aria-hidden="true"><small>CONCEPTS / TECHNIQUES / CHALLENGES</small><strong>Physical<br>AI<span>.</span></strong><small>A COLLABORATIVE MONOGRAPH</small></div>{% endif %}
+    <span>{{ paper.short_title }}</span>
+  </a>
+  <div class="paper-content">
+    <div class="paper-meta"><span class="venue{% if paper.type == 'preprint' %} venue-preprint{% endif %}">{{ paper.venue }}{% if paper.type == 'preprint' %} · {{ paper.year }}{% endif %}</span>{% if paper.distinction %}<span class="paper-distinction">{{ paper.distinction }}</span>{% endif %}</div>
+    <h3><a href="{{ paper.paper }}">{{ paper.title }}</a></h3>
+    <div class="paper-authors">{{ paper.authors | markdownify }}</div>
+    <p class="paper-summary">{{ paper.summary }}</p>
+    <div class="paper-links" aria-label="Publication resources">
+      <a href="{{ paper.paper }}">Paper <span aria-hidden="true">↗</span></a>
+      <a href="{{ paper.pdf }}">PDF <span aria-hidden="true">↗</span></a>
+      {% if paper.code %}<a href="{{ paper.code }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
+      <a href="{{ paper.bibtex | relative_url }}" download>BibTeX <span aria-hidden="true">↓</span></a>
+    </div>
+  </div>
+</article>

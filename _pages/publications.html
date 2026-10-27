@@ -1,36 +1,15 @@
 ---
-layout: archive
-title: "Publications"
 permalink: /publications/
-author_profile: true
+title: Publications
+kicker: Research
+intro: "Robot learning, embodied navigation, and predictive world models."
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<p class="publication-intro">For the latest citation information, see my <a href="{{ site.author.googlescholar }}">Google Scholar profile <span aria-hidden="true">↗</span></a>. Author lists below follow the linked public preprints. * Equal contribution.</p>
+<section aria-labelledby="conference-heading">
+  <div class="section-heading"><h2 id="conference-heading">Conference papers</h2><span class="section-index">2026</span></div>
+  {% for paper in site.data.papers %}{% if paper.type == 'conference' %}{% include paper-card.html %}{% endif %}{% endfor %}
+</section>
+<section aria-labelledby="preprint-heading">
+  <div class="section-heading"><h2 id="preprint-heading">Preprints</h2><span class="section-index">2026</span></div>
+  {% for paper in site.data.papers %}{% if paper.type == 'preprint' %}{% include paper-card.html %}{% endif %}{% endfor %}
+</section>

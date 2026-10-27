@@ -1,0 +1,23 @@
+---
+permalink: /cv/
+title: Curriculum vitae
+kicker: Background
+intro: "Education, research experience, and selected honors."
+---
+<section aria-labelledby="cv-education">
+  <div class="section-heading"><h2 id="cv-education">Education</h2></div>
+  {% for item in site.data.profile.education %}<div class="timeline-item"><div class="timeline-top"><h3>{{ item.institution }}</h3><span>{{ item.dates }}</span></div><p class="timeline-role">{{ item.degree }}</p><p class="timeline-detail">{{ item.detail }}</p></div>{% endfor %}
+</section>
+<section aria-labelledby="cv-experience">
+  <div class="section-heading"><h2 id="cv-experience">Research &amp; engineering experience</h2></div>
+  {% for item in site.data.profile.experience %}<div class="timeline-item"><div class="timeline-top"><h3>{{ item.institution }}</h3><span>{{ item.dates }}</span></div><p class="timeline-role">{{ item.role }}</p><p class="timeline-detail">{{ item.description }}</p></div>{% endfor %}
+</section>
+<section aria-labelledby="cv-awards">
+  <div class="section-heading"><h2 id="cv-awards">Honors &amp; awards</h2></div>
+  <ul class="award-list">{% for item in site.data.profile.awards %}<li><span class="award-year">{{ item.year }}</span><div><strong>{{ item.title }}</strong>{% if item.detail %}<p>{{ item.detail }}</p>{% endif %}</div></li>{% endfor %}</ul>
+</section>
+<section aria-labelledby="cv-skills">
+  <div class="section-heading"><h2 id="cv-skills">Technical skills</h2></div>
+  <dl class="skills-list"><dt>Robot learning</dt><dd>Imitation learning, diffusion and flow policies, vision-language-action models, policy generalization, and test-time adaptation.</dd><dt>Embodied AI &amp; 3D</dt><dd>Vision-and-language navigation, world models, semantic and topological representations, 3D reconstruction, and scene generation.</dd><dt>Robotics</dt><dd>ROS, perception–planning–control integration, and real-world deployment on xArm and Flexiv platforms.</dd><dt>Programming</dt><dd>Python, C/C++, PyTorch, Linux, and Git.</dd></dl>
+</section>
+<p class="cv-publications-link">See <a href="{{ '/publications/' | relative_url }}">Publications</a> for papers and research code.</p>

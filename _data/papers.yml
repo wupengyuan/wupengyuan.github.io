@@ -1,0 +1,71 @@
+- id: dcdp
+  title: "Closed-Loop Action Chunks with Dynamic Corrections for Training-Free Diffusion Policy"
+  short_title: DCDP
+  authors: "**Pengyuan Wu**\\*, Pingrui Zhang\\*, Zhigang Wang, Dong Wang, Bin Zhao, Xuelong Li"
+  venue: ICRA 2026
+  distinction: Oral
+  type: conference
+  year: 2026
+  image: /images/research/dcdp.png
+  image_alt: "Comparison of open-loop action chunks, closed-loop control, and DCDP dynamic corrections."
+  summary: "Lightweight, step-by-step corrections bring real-time feedback to action chunks without retraining the underlying diffusion policy."
+  paper: https://arxiv.org/abs/2603.01953
+  pdf: https://arxiv.org/pdf/2603.01953
+  code: https://github.com/wupengyuan/dcdp
+  bibtex: /files/dcdp.bib
+  featured: true
+- id: atd
+  title: "Cross from Left to Right Brain: Adaptive Text Dreamer for Vision-and-Language Navigation"
+  short_title: Adaptive Text Dreamer
+  authors: "Pingrui Zhang, Yifei Su, **Pengyuan Wu**, Dong An, Li Zhang, Zhigang Wang, Dong Wang, Yan Ding, Bin Zhao, Xuelong Li"
+  venue: CVPR 2026
+  type: conference
+  year: 2026
+  image: /images/research/atd.png
+  image_alt: "Adaptive Text Dreamer combines state estimation with semantic imagination for navigation."
+  summary: "An embodied agent reasons about its current state and imagines future scene semantics in language to navigate under partial observability."
+  paper: https://arxiv.org/abs/2505.20897
+  pdf: https://arxiv.org/pdf/2505.20897
+  code: https://github.com/zhangpingrui/Adaptive-Text-Dreamer
+  bibtex: /files/atd.bib
+  featured: true
+- id: mixvla
+  title: "MixVLA: Adaptive Mixing of Non-Invariant Information for Generalizable Vision-Language-Action Models"
+  short_title: MixVLA
+  authors: "Pingrui Zhang, Yu Zhang, **Pengyuan Wu**, Bin Wang, Haoming Song, Xianqiang Gao, ZhaxiZhuoma, Zhigang Wang, Dong Wang, Bin Zhao, Xuelong Li"
+  venue: arXiv preprint
+  type: preprint
+  year: 2026
+  image: /images/research/mixvla.png
+  image_alt: "MixVLA regularizes non-invariant information to improve robot policy generalization."
+  summary: "Adaptive mixing of non-invariant representations improves the robustness of vision-language-action models to unseen visual conditions."
+  paper: https://arxiv.org/abs/2610.02898
+  pdf: https://arxiv.org/pdf/2610.02898
+  bibtex: /files/mixvla.bib
+  featured: true
+- id: wolf
+  title: "WOLF: World Model Guided LiDAR Exploration with Predictive Frontiers"
+  short_title: WOLF
+  authors: "Yuyang Tian, Penghui Yang, **Pengyuan Wu**, Haoran Yang, Chenhui Li, Pengfei Han, Dong Wang, Zhigang Wang, Bin Zhao, Xuelong Li"
+  venue: arXiv preprint
+  type: preprint
+  year: 2026
+  image: /images/research/wolf.png
+  image_alt: "World-model-guided LiDAR exploration using predictive frontiers beyond observed space."
+  summary: "A recurrent world model predicts occupancy and visibility beyond current observations to guide autonomous UAV exploration."
+  paper: https://arxiv.org/abs/2609.23656
+  pdf: https://arxiv.org/pdf/2609.23656
+  bibtex: /files/wolf.bib
+  featured: false
+- id: physical-ai
+  title: "Physical AI: Concepts, Techniques, and Challenges"
+  short_title: Physical AI
+  authors: "Weinan Zhang, Chunhua Shen, Tianfan Xue, et al. (including **Pengyuan Wu**)"
+  venue: arXiv preprint
+  type: preprint
+  year: 2026
+  summary: "A collaborative monograph on physical AI, covering its foundations, enabling techniques, applications, and open research challenges."
+  paper: https://arxiv.org/abs/2610.27045
+  pdf: https://arxiv.org/pdf/2610.27045
+  bibtex: /files/physical-ai.bib
+  featured: false

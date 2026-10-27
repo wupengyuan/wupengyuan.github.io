@@ -1,12 +1,13 @@
 # Ignore the contents of the _site directory and other cache directories
 _site/
 .sass-cache/
+.jekyll-cache/
 
 # Ignore the directory for local files during development
 local/
 
 # Ignore the Gemfile that is generated
-Gemfile.lock
+# Gemfile.lock is tracked for reproducible local and GitHub builds.
 
 # Ignore files created by npm
 node_modules
