@@ -11,6 +11,7 @@ class Page(HTMLParser):
     def __init__(self):
         super().__init__()
         self.links = []
+        self.stylesheets = []
         self.ids = set()
         self.images = []
         self.main = 0
@@ -21,6 +22,7 @@ class Page(HTMLParser):
         if tag == 'main': self.main += 1
         if tag == 'h1': self.h1 += 1
         if tag in ('a','link') and attrs.get('href'): self.links.append(attrs['href'])
+        if tag == 'link' and attrs.get('rel') == 'stylesheet': self.stylesheets.append(attrs.get('href'))
         if tag in ('img','script') and attrs.get('src'): self.links.append(attrs['src'])
         if tag == 'img' and not attrs.get('alt'): errors.append('Image has no alternative text')
 
@@ -36,6 +38,8 @@ for relative in ('index.html', 'publications/index.html', 'cv/index.html', '404.
         errors.append(f'Missing required page: {relative}')
     elif pages[path].main != 1 or pages[path].h1 != 1:
         errors.append(f'{relative}: expected one main landmark and one h1')
+    if path in pages and '/assets/css/main.css' not in pages[path].stylesheets:
+        errors.append(f'{relative}: the main stylesheet must use its site-relative URL')
 
 for path, parsed in pages.items():
     for link in parsed.links:
