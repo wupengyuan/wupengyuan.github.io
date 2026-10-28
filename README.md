@@ -10,7 +10,7 @@ The homepage contains a short introduction, all public publications, and selecte
 
 | File | Content |
 | --- | --- |
-| `_config.yml` | Site address, email, GitHub, and Google Scholar links |
+| `_config.yml` | Site address, email, LinkedIn, and Google Scholar links |
 | `_pages/about.md` | English introduction and homepage structure |
 | `_data/profile.yml` | Selected education, experience, and honors |
 | `_data/papers.yml` | Publication metadata, author lists, and resource links |
