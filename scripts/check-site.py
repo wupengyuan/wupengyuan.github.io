@@ -4,7 +4,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path('_site').resolve()
-SITE = 'wupengyuan.github.io'
+SITE = 'wpy2002.top'
 errors = []
 
 class Page(HTMLParser):

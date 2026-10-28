@@ -2,7 +2,7 @@
 
 English academic website built from [Academic Pages](https://github.com/academicpages/academicpages.github.io), powered by Jekyll and hosted on GitHub Pages.
 
-**Website:** https://wupengyuan.github.io/
+**Website:** https://wpy2002.top/
 
 The homepage contains a short introduction, all public publications, and selected honors. Background details are on a separate page. The site opens in light mode; visitors can switch themes manually.
 
